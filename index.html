@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-evenly;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+
+        .food {
+            padding: 25px;
+            border: 1px solid #ee6b2e;
+            border-radius: 15px;
+        }
+
+        .food img {
+            width: 20vw;
+        }
+
+        @media screen and (max-width: 577px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width: 972px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-1</h2>
+                <h3>Price: 100</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut provident voluptas blanditiis esse
+                    nesciunt repudiandae adipisci quia sed non, nulla autem sapiente? Aliquam illum earum vero debitis
+                    error, repudiandae amet.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-2</h2>
+                <h3>Price: 200</h3>
+                <p>Error laborum nisi, nesciunt aperiam optio earum quia pariatur dignissimos impedit nulla voluptate in
+                    natus quae atque repellendus dicta qui velit dolores assumenda vero, omnis id nam enim. Debitis,
+                    autem.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-3</h2>
+                <h3>Price: 300</h3>
+                <p>Sequi repellendus aut cumque iusto fugit magni minima doloremque reiciendis omnis atque aliquam eum
+                    dolore sapiente corporis ullam nesciunt hic consequuntur, officiis mollitia dolorem nisi sint eos
+                    obcaecati veniam. Error!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-4</h2>
+                <h3>Price: 400</h3>
+                <p>Asperiores assumenda, voluptatibus repellendus soluta officia hic eligendi! Maxime, totam. Et illo
+                    vero neque numquam ipsa asperiores eum sunt libero accusantium. Repudiandae, natus! Dolores quis, in
+                    sint veritatis consequuntur saepe.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-5</h2>
+                <h3>Price: 500</h3>
+                <p>Reiciendis voluptate modi id odio ex praesentium dolorem? Aliquam officia in perferendis dolorum
+                    necessitatibus architecto perspiciatis autem cumque corrupti quidem impedit sunt veniam illo itaque
+                    nesciunt, facilis voluptatibus, quaerat laboriosam.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-6</h2>
+                <h3>Price: 600</h3>
+                <p>Distinctio ut maxime perferendis quam fugit? Magnam, ipsum commodi. Accusamus harum pariatur eligendi
+                    officia atque animi nam? In ratione quasi odit perspiciatis dolorum. Totam aspernatur facere
+                    assumenda, sed eaque itaque.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-7</h2>
+                <h3>Price: 700</h3>
+                <p>Consectetur, sunt sit voluptates ad aperiam doloremque dolores dignissimos voluptatem impedit non
+                    mollitia esse odit, iste incidunt. Doloribus quod corrupti assumenda ab alias eos repellendus
+                    aliquid vero maiores, pariatur nihil?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-8</h2>
+                <h3>Price: 800</h3>
+                <p>Hic in praesentium eligendi voluptatibus dolorem quis itaque ad porro numquam ipsum consectetur
+                    recusandae, aperiam sed vel error debitis aliquid eos ex quaerat facere assumenda? Quia odit
+                    corporis exercitationem excepturi!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-9</h2>
+                <h3>Price: 900</h3>
+                <p>Deserunt illum sapiente, a reprehenderit odio nisi aperiam quod libero non ipsam modi ad optio
+                    inventore quasi esse repellendus veritatis eius quas saepe! Deleniti, enim eligendi quos quae fuga
+                    aliquam.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-10</h2>
+                <h3>Price: 1000</h3>
+                <p>Velit voluptatibus soluta eaque qui hic. Praesentium voluptate quae et nulla nobis libero quos
+                    consequatur recusandae qui corrupti aliquam dolor, repellendus deleniti provident voluptates nemo
+                    maiores sed, quis officiis tempore?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-11</h2>
+                <h3>Price: 1100</h3>
+                <p>Facere suscipit officiis impedit, porro dicta doloremque accusantium ipsum enim quisquam aperiam sit
+                    distinctio praesentium? Reiciendis officiis vero similique! Animi aliquam repudiandae excepturi
+                    omnis molestiae, officia in. Aperiam, consequatur sed?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-12</h2>
+                <h3>Price: 1200</h3>
+                <p>Magnam dolor inventore quidem unde nisi perspiciatis adipisci quam temporibus! Quidem modi quae
+                    corrupti eos odio, unde necessitatibus soluta? Quisquam cum blanditiis voluptas magnam iure eum
+                    neque sed a id!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-13</h2>
+                <h3>Price: 1300</h3>
+                <p>Atque ipsum quidem sint deleniti sunt sit quaerat laudantium ex soluta obcaecati animi numquam dicta
+                    earum, corrupti fugit quam, neque accusantium ratione? Pariatur ipsa harum voluptas esse voluptates
+                    necessitatibus natus.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="foods.webp" alt="">
+                <h2>Item-14</h2>
+                <h3>Price: 1400</h3>
+                <p>Repellendus nisi, consequuntur, nam eligendi quis natus quasi eum laudantium exercitationem, tenetur
+                    itaque quam! Inventore totam dolorem tempore doloribus, perspiciatis at aspernatur tempora vero
+                    magni quas repellat vitae saepe sed!</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
